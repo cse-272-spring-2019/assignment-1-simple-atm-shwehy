@@ -6,7 +6,7 @@ private int index = 0 ;
 private short flage2 = 0;
 short check;
 private short flage;
-double history [][]= new double [5][3];
+private double history [][]= new double [5][3];
 public double getBalance(){
 	if(this.count<0)
 		this.index=this.count+1;
